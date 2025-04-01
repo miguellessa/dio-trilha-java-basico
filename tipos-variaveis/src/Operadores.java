@@ -1,16 +1,15 @@
 public class Operadores {
 
     public static void main(String[] args) {
-
-        // condição ternaria ex:
         
-        int a, b;
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
-        a= 6;
-        b= 6;
+        if (condicao1 && condicao2) {
+            System.out.println("as duas condições são verdadeiras");
+        }
 
-        String resultado = a==b ? "verdadeiro" : "falso";
-        System.out.println(resultado);
+            System.out.println("fim");
 
     }
     
